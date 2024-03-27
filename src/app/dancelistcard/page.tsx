@@ -1,4 +1,5 @@
 import { naluka } from "@/fonts"
+import Search from "@/components/Search"
 
 export default function Dancelistcard(){
     return (
@@ -9,11 +10,8 @@ export default function Dancelistcard(){
                         Danses <span className="text-[#3A0409]">Traditionelles</span> Béninoises
                         </p>
                 </div>
-                <div className="flex w-[250px] " >
-                    <input type="search" name="" id="" placeholder="Rechercher" className="w-[250px] h-[40px] rounded-xl " />
-                    <button type="submit" className="search-button">
-                        <img src="images/Search.svg" alt="" />
-                    </button>                   
+                <div className="flex" >
+                    <Search />                
                 </div>
                 <div className=" flex flex-col justify-center items center gap-3 py-8 px-4">
                     <div className="flex gap-8">
