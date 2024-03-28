@@ -1,7 +1,7 @@
 import { naluka } from "@/fonts";
 export default function Quisommesnous(){
     return(
-        <div className="px-[25px] py-[30px] bg-[#BE894A] flex flex-col gap-10">
+        <div className="px-[25px] py-[35px] bg-[#BE894A] flex flex-col gap-10">
             <div>
                 <p className={`text-[#3F0408] text-[70px] ${naluka.className}`}>
                  <span className={`text-white text-[70px] ${naluka.className}`}>Qui</span> sommes nous  
@@ -105,37 +105,39 @@ export default function Quisommesnous(){
 
                     </div>
                 </div>
-                <div>
-                    <p className={`text-[#3F0408] text-[40px] ${naluka.className}`}>
+                <div className="flex flex-col justify-center items-center gap-5 py-9">
+                    <p className={` text-center text-[#3F0408] text-[40px] ${naluka.className}`}>
                     Aujourd’hui cocoon c’est  
                     </p>
-                    <div className="flex">
-                        <div className="flex flex-col">
-                            <div className=" ">
-                                <img className="shadow-lg rounded-full p-5" src="images/mortarboard.svg" alt="" />
+                    <div className="flex text-[18px] justify-between gap-6">
+                        <div className="flex flex-col w-[250px] text-center justify-center items-center ">
+                            <div className="flex flex-col justify-center items-center ">
+                                <img className="shadow-lg rounded-full p-6" src="images/mortarboard.svg" alt="" />
                             </div>
-                            <p className="text-white">Un projet réalisé par des élèves pour des élèves</p>
+                            <p className="text-white">Un projet réalisé par <span className="font-bold">des élèves</span> pour <span className="font-bold">des élèves</span> </p>
                         </div>
-                        <div className="flex flex-col">
-                            <div>
-                                <img className="shadow-lg rounded-full p-5" src="images/openparcel.svg" alt="" />
+                        <div className="flex flex-col text-center justify-center items-center">
+                            <div className="flex flex-col justify-center items-center">
+                                <img className="shadow-lg rounded-full p-6" src="images/openparcel.svg" alt="" />
                             </div>
-                            <p className="text-white">Un projet unique qui tient dans une box</p>
+                            <p className="text-white">Un <span className="font-bold">projet unique</span> qui tient dans une <span className="font-bold">box</span></p>
                         </div>
                     </div>
-                    <hr />
+                    <hr style={{ backgroundColor: '#3F0408', height: '2px', border: 'none', width:'100px' }} />                    
                     <div>
-                        <p>«Il faut être ambitieux, mais il ne faut pas se tromper d'ambition.»</p>
-                        <p>— Jacques de Bourbon Busset</p>
+                        <p className="font-medium text-[21px] italic text-center text-[#3F0408] w-[250px]">«Il faut être ambitieux, mais il ne faut pas se tromper d'ambition.»</p>
+                        <p className="italic text-[15px] text-center text-white ">— Jacques de Bourbon Busset</p>
                     </div>
-                    <hr />
-                    <p className={`text-[#3F0408] text-[40px] ${naluka.className}`}>
+                    <hr style={{ backgroundColor: '#3F0408', height: '2px', border: 'none', width:'100px' }} />                    
+                    <p className={` text-center text-[#3F0408] text-[40px] w-[300px] ${naluka.className}`}>
                         demain cocoon ce sera  
                     </p>
-                    <div className=" ">
-                        <img className="shadow-lg rounded-full p-5" src="images/new.svg" alt="" />
+                    <div className=" flex flex-col justify-center items-center ">
+                        <img className="shadow-lg rounded-full p-7" src="images/new.svg" alt="" />
                     </div>
-                    <p>Une box autour d’autres types de harcèlement</p>
+                    <p className="text-[25px] text-[#3F0408] text-center w-[200px]">
+                        <span className="font-bold">Une box</span> autour d’autres <span className="font-bold">types de harcèlement</span>
+                    </p>
 
                 </div>
             </div>
