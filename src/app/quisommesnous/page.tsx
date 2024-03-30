@@ -20,7 +20,7 @@ export default function Quisommesnous(){
 
             <div className="max-w-sm bg-[#BE894A] rounded-lg shadow flex flex-col">
                 <a href="#">
-                    <img className="rounded-t-lg" src="images/image.svg" alt="" />
+                    <img className="rounded-t-lg" src="images/Bernice.JPG" alt="" />
                 </a>
                 <div className="p-5 flex gap-20">
                     <div>
