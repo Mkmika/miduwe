@@ -20,7 +20,7 @@ export default function Reseaux(){
                     <p className="text-white font-medium text-xl">Nous souhaitons pouvoir informer au mieux les jeunes sur les différentes danse traditionnelles béninoises et pour promouvoir les danses traditionnelles béninoises.</p>
                 </div>
                <div className="flex flex-col justify-center items-center gap-4">
-                    <hr style={{ backgroundColor: '#3F0408', height: '2px', border: 'none', width:'100px' }} />
+                    <hr style={{ backgroundColor: '#3F0408', height: '2px', border: 'none', width:'150px' }} />
                     <p className="text-[#3F0408] text-[22px] uppercase font-bold">Suivez-nous !</p>                 
                     <div className="flex justify-between gap-[50px] p-[25px] " >
                         <div className="bg-[#BE894A] rounded-full p-5 shadow-xl">
