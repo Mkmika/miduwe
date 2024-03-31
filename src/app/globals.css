@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.bg-default{
+  background: url('/images/font.svg') no-repeat, #BE894A;
+}

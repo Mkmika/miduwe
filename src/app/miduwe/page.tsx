@@ -2,7 +2,7 @@ import { naluka } from "@/fonts"
 
 export default function Miduwe(){
     return(
-        <div className="px-[30px] py-[50px] bg-[#BE894A] flex flex-col gap-10">
+        <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10">
             <div className="">
                 <img src="images/boxcocoon 1.svg" alt="" />
             </div>

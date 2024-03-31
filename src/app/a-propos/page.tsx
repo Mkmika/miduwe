@@ -1,7 +1,7 @@
 import { naluka } from "@/fonts";
 export default function Quisommesnous(){
     return(
-        <div className="px-[25px] py-[35px] bg-[#BE894A] flex flex-col gap-10">
+        <div className="px-[25px] py-[35px] bg-default flex flex-col gap-10">
             <div>
                 <p className={`text-[#3F0408] text-[70px] ${naluka.className}`}>
                  <span className={`text-white text-[70px] ${naluka.className}`}>Qui</span> sommes nous  

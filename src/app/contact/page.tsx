@@ -2,7 +2,7 @@ import { naluka } from "@/fonts"
 
 export default function Contact(){
     return(
-        <div className="px-[25px] py-[30px] bg-[#BE894A]">
+        <div className="px-[25px] py-[30px] bg-default">
             <div className="flex flex-col justify-center items-center gap-10 py-[50px] px-[25px] ">
                 <div className="flex flex-col gap-5">
                     <p className={`text-[#3F0408] text-[70px] ${naluka.className}`}>Contact</p>
@@ -10,7 +10,7 @@ export default function Contact(){
                      ou encore <span className="font-bold">commander un de nos jeu</span>,profitez de ce formulaire pour nous transmettre votre demande.
                     </p>
                 </div>
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-5 w-full">
                     <input type="text" placeholder="FirstName" className="px-[13px] h-[40px] rounded-xl text-black text-sm " />
                     <input type="text" placeholder="LastName" className="px-[13px] h-[40px] rounded-xl text-black text-sm " />
                     <input type="text" placeholder="Email" className="px-[13px] h-[40px] rounded-xl text-black text-sm " />
