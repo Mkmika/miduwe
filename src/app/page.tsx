@@ -52,10 +52,10 @@ export default function Dancelistcard() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center ">
+      {/* <div className="flex flex-col items-center ">
         <img src="images/plus.svg" className="w-10 h-10" alt="" />
         <p>Charger plus</p>
-      </div>
+      </div> */}
     </div>
   );
 }

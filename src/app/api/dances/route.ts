@@ -34,14 +34,7 @@ const dances: danceItem[] = [
     history: "Avant que l'on retrouve cette danse au Bénin de nos jours, elle est d'abord l’œuvre du peuple Ewe principalement des pêcheurs ghanéens qui l'exécutent après une journée de travail bien remplie. L'agbadja est donc une danse des Ewe que l'on rencontre au Ghana, au Bénin et au Togo5. En réalité, l'agbadja est une danse qui est issue de l'atrikpui qui est une danse de guerre qu'exécutaient les populations de la région de la Volta dans le but d'encourager leurs guerriers ou de les accueillir triomphalement. Les périodes guerrières étant terminées, l'atrikpui laisse sa place à l'agbadja et à d'autres danses plus gaies . Les Ewe dispersent ce rythme populaire agbadja. Les spectacles et les festivals traditionnels ou modernes accueillent les danseurs et les batteurs d'agbadja. Les accoutrements des artistes et danseurs d'agbadja sont basés sur les habillements traditionnels des Noirs africains comme le pagne.",
     pratice: "L'agbadja est une danse qui au départ est lente et légère, puis énergique, voire brutale, faisant intervenir de forts mouvements d'épaules. Le danseur est en dooplé (genoux fléchis), les bras en partie repliés sur la poitrine . Il exécute une série de mouvements commençant par les épaules et les omoplates. Toujours en dooplé, ses pieds battent tour à tour la terre. Elle se danse surtout lors des cérémonies de réjouissances populaires, mais aussi lors d'événements moins gais comme les funérailles.",
   },
-  {
-    id: 5,
-    danceName: "Akounhoun",
-    imagePath: "/images/akonhoun.svg",
-    shortDesc: "",
-    history: "",
-    pratice: "",
-  },
+  
 ];
 
 export async function GET(request: NextRequest) {

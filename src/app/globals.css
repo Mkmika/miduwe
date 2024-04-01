@@ -33,5 +33,5 @@ body {
 }
 
 .bg-default{
-  background: url('/images/font.svg') no-repeat, #BE894A;
+  background: url('/images/font.svg') repeat, #BE894A;
 }

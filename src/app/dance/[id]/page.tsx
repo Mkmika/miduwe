@@ -4,6 +4,10 @@ import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { naluka } from "@/fonts";
 import { danceItem } from "@/interfaces/dance";
+import Link from "next/link";
+import "./dance.css"
+import Audio from "@/components/Audio";
+import Video from "@/components/Video";
 
 export default function DanceDetail() {
   const [danceData, setDanceData] = useState<danceItem>();
@@ -30,10 +34,14 @@ export default function DanceDetail() {
 
 
   return (
-    <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10">
-      <div className="drop-shadow">
-        <img src={danceData?.imagePath} alt="" />
+    <>
+    <div className="drop-shadow dance-photo flex justify-center items-center h-[350px] relative">
+        <Link href="/" className="absolute top-4 left-4">
+          <img src="/images/Back.svg" alt="" />
+        </Link>
+        <img src={danceData?.imagePath} alt="" className="w-[70%]" />
       </div>
+    <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10 rounded-tr-3xl rounded-tl-3xl">
       <div className="flex flex-col gap-1">
         <div className="flex flex-col gap-5">
           <p className={`text-[#3F0408] text-[50px] ${naluka.className}`}>
@@ -55,8 +63,8 @@ export default function DanceDetail() {
             Instrumental
           </p>
           <div className="flex gap-3">
-            <img src="/images/play-circle.svg" alt="" />
-            <img src="/images/traitmusique.svg" alt="" />
+{/*             <img src="/images/traitmusique.svg" alt="" /> */}
+<Audio />
           </div>
         </div>
         <div>
@@ -64,10 +72,13 @@ export default function DanceDetail() {
             Photo-Video
           </p>
           <div>
-            <img src="/images/zinliImage.svg" alt="" />
-          </div>
+{/*             <img src="/images/zinliImage.svg" alt="" />
+ */}          
+  <Video />
+ </div>
         </div>
       </div>
     </div>
+    </>
   );
 }

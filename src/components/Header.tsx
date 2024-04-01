@@ -10,7 +10,9 @@ export default function Header() {
     <div className="bg-[#BE894A] px-[30px] pt-8 flex flex-col">
       <div>
         <div className="flex justify-between mb-2">
+          <Link href="/">
           <img src="/images/logo.svg" alt="" />
+          </Link>
           <div>
             <img
               src="/images/burger.svg"
