@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { naluka } from "@/fonts";
 import Search from "@/components/Search";
 import DanceCard from "@/components/DanceCard";
-import { danceItem } from "@/components/DanceCard";
+import { danceItem } from "@/interfaces/dance";
 
 export default function Dancelistcard() {
   const [dances, setDances] = useState<danceItem[]>([]);

@@ -1,4 +1,4 @@
-import { danceItem } from "@/components/DanceCard";
+import { danceItem } from "@/interfaces/dance";
 import { NextResponse, NextRequest } from "next/server";
 
 const dances: danceItem[] = [

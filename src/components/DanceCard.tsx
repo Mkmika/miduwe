@@ -2,21 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { naluka } from "@/fonts";
 import { motion } from "framer-motion";
+import { danceCardItem } from "@/interfaces/dance";
 
-export interface danceItem {
-  id: Number;
-  danceName: string;
-  imagePath: string;
-  shortDesc: string;
-  history: string;
-  pratice: string;
-}
-
-interface danceCardItem {
-  id: Number;
-  danceName: string;
-  imagePath: string;
-}
 
 const DanceCard = (props: danceCardItem) => {
   return (

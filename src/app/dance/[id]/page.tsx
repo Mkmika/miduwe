@@ -3,9 +3,9 @@
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import { naluka } from "@/fonts";
-import { danceItem } from "@/components/DanceCard";
+import { danceItem } from "@/interfaces/dance";
 
-export default function DanceDetail(props: danceItem) {
+export default function DanceDetail() {
   const [danceData, setDanceData] = useState<danceItem>();
   const params = useParams<{ id: string}>()
 
