@@ -35,13 +35,13 @@ export default function DanceDetail() {
 
   return (
     <>
-    <div className="drop-shadow dance-photo flex justify-center items-center h-[350px] relative">
+    <div className="drop-shadow dance-photo flex justify-center items-center text-white h-[350px] relative">
         <Link href="/" className="absolute top-4 left-4">
           <img src="/images/Back.svg" alt="" />
         </Link>
         <img src={danceData?.imagePath} alt="" className="w-[70%]" />
       </div>
-    <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10 rounded-tr-3xl rounded-tl-3xl relative mt-[-15px]">
+    <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10 rounded-tr-3xl rounded-tl-3xl text-white  relative mt-[-15px]">
       <div className="flex flex-col gap-1">
         <div className="flex flex-col gap-5">
           <p className={`text-[#3F0408] text-[50px] ${naluka.className}`}>
