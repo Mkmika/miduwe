@@ -41,7 +41,7 @@ export default function DanceDetail() {
         </Link>
         <img src={danceData?.imagePath} alt="" className="w-[70%]" />
       </div>
-    <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10 rounded-tr-3xl rounded-tl-3xl">
+    <div className="px-[30px] py-[50px] bg-default flex flex-col gap-10 rounded-tr-3xl rounded-tl-3xl relative mt-[-15px]">
       <div className="flex flex-col gap-1">
         <div className="flex flex-col gap-5">
           <p className={`text-[#3F0408] text-[50px] ${naluka.className}`}>
