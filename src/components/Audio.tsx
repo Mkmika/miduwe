@@ -1,6 +1,10 @@
 import React from "react";
 
-const Audio = (props) => {
+type AudioProps = {
+  url?: string;
+};
+
+const Audio: React.FC<AudioProps> = (props) => {
   return (
     <>
     <audio controls>
