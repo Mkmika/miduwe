@@ -101,7 +101,7 @@ export default function Quisommesnous(){
                         <p>
                             Si vous désirez nous aider tout se passe juste ici:
                         </p>
-                        <button className="bg-[#3F0408] rounded-3xl px-10 py-4 text-[#BE894A] text-xs">Aider</button>
+                        <button className="bg-[#3F0408] rounded-full px-10 py-4 text-[#BE894A] text-xs">Aider</button>
 
                     </div>
                 </div>

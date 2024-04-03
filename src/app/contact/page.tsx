@@ -20,7 +20,7 @@ export default function Contact(){
                          <p className="text-sm text-[#3F0408] font-medium">S'inscrire a la Newsletter</p>
                     </div>
                     <div className="flex flex-col items-center">
-                        <button className="bg-[#3F0408] rounded-3xl px-10 py-4  text-[#BE894A] text-xs">Envoyer</button>
+                        <button className="bg-[#3F0408] rounded-full px-10 py-4  text-[#BE894A] text-xs">Envoyer</button>
                     </div>
                 </div>
                 <div className="flex flex-col items-center text-[21px] gap-3">
@@ -33,7 +33,7 @@ export default function Contact(){
                         </p>
                         <input type="text" placeholder="Email" className="px-[13px] h-[40px] rounded-xl text-[#3F0408] text-sm " />
                         <p className="font-thin text-white text-xs">Adresse mail sécurisée. Aucun spam</p>
-                        <button className="bg-[#3F0408] rounded-3xl px-10 py-4 text-[#BE894A] text-xs">Envoyer</button>
+                        <button className="bg-[#3F0408] rounded-full px-10 py-4 text-[#BE894A] text-xs">Envoyer</button>
                     </div>
                     <div className="bg-[#3F0408] w-[100px]">
                         <hr style={{ backgroundColor: '#3F0408', height: '2px', border: 'none' }} />

@@ -73,7 +73,7 @@ export default function Leprojet(){
             </div>
             <div className="">
                 <div>
-                    <button className="bg-[#3F0408] rounded-3xl px-10 py-4 text-[#BE894A] text-xs font-bold">Jouer</button>
+                    <button className="bg-[#3F0408] rounded-full px-10 py-4 text-[#BE894A] text-xs font-bold">Jouer</button>
                 </div>
             </div>
 
