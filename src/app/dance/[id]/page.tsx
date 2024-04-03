@@ -64,7 +64,7 @@ export default function DanceDetail() {
           </p>
           <div className="flex gap-3">
 {/*             <img src="/images/traitmusique.svg" alt="" /> */}
-<Audio />
+<Audio url={danceData?.audio} />
           </div>
         </div>
         <div>

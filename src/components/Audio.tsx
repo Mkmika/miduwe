@@ -1,11 +1,10 @@
 import React from "react";
 
-const Audio = () => {
+const Audio = (props) => {
   return (
     <>
     <audio controls>
-      <source src="horse.ogg" type="audio/ogg" />
-      <source src="horse.mp3" type="audio/mpeg" />
+      <source src={props.url} type="audio/mpeg" />
       Your browser does not support the audio tag.
     </audio>
     </>
