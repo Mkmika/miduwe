@@ -74,7 +74,7 @@ export default function DanceDetail() {
           <div>
 {/*             <img src="/images/zinliImage.svg" alt="" />
  */}          
-  <Video />
+  <Video url={danceData?.videoUrl} />
  </div>
         </div>
       </div>
