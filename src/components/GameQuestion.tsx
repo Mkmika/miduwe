@@ -42,10 +42,10 @@ const GameQuestion: React.FC<GameQuestionProps> = ({
         </button>
       ))}
 
-      <div className="grid grid-cols-2 gap-4">
-        <button className="bg-[#3F0408] flex justify-center items-center rounded-full px-[60px] py-5 text-[#BE894A] text-xl" onClick={goBack}>
+      <div className="grid grid-cols-1 gap-4">
+        {/* <button className="bg-[#3F0408] flex justify-center items-center rounded-full px-[60px] py-5 text-[#BE894A] text-xl" onClick={goBack}>
           Précédent
-        </button>
+        </button> */}
         <button className="bg-[#3F0408] flex justify-center items-center rounded-full px-[60px] py-5 text-[#BE894A] text-xl" onClick={() => handleAnswerClick(clickedAnswer)}>
           Suivant
         </button>
