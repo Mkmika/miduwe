@@ -7,10 +7,10 @@ type AudioProps = {
 const Audio: React.FC<AudioProps> = (props) => {
   return (
     <>
-    <audio controls>
+    <video controls className="w-full h-[40px]">
       <source src={props.url} type="audio/mpeg" />
       Your browser does not support the audio tag.
-    </audio>
+    </video>
     </>
   );
 };
