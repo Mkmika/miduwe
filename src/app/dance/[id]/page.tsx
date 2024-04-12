@@ -6,8 +6,8 @@ import { naluka } from "@/fonts";
 import { danceItem } from "@/interfaces/dance";
 import Link from "next/link";
 import "./dance.css"
-import Audio from "@/components/Audio";
 import Video from "@/components/Video";
+import ReactAudioPlayer from "react-audio-player";
 
 export default function DanceDetail() {
   const [danceData, setDanceData] = useState<danceItem>();
@@ -64,7 +64,10 @@ export default function DanceDetail() {
           </p>
           <div className="flex gap-3">
 {/*             <img src="/images/traitmusique.svg" alt="" /> */}
-<Audio url={danceData?.audio} />
+<ReactAudioPlayer
+  src={danceData?.audio}
+  controls
+/>
           </div>
         </div>
         <div>
